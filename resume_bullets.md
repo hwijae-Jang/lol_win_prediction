@@ -6,6 +6,4 @@
 - 변수 중요도(Feature importance) 및 상관관계 히트맵 시각화로 주요 영향 변수 분석
 - 실행 1줄 재현: `python scripts/train_eval.py --csv data/Player_data/T1_Faker.csv --seed 42 --cv 3`
 
-### 이력서의 GitHub 링크 수정
-- 기존: https://github.com/hwijae-Jang/project (placeholder)
-- 변경: 이 정리 레포 URL로 교체
+
