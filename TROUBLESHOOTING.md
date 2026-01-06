@@ -61,7 +61,7 @@ ChatGPT에게 코드 리뷰 요청:
 
 **시각화로 보는 문제점**:
 
-![Before vs After](docs/images/troubleshooting_before_after.png)
+![Before vs After](troubleshooting_before_after.png)
 
 **핵심 문제**:
 - **Before**: Train과 Test가 같은 데이터! (82.58% = 82.58%)
@@ -71,7 +71,7 @@ ChatGPT에게 코드 리뷰 요청:
 
 ### 🔍 7가지 문제 상세 분석
 
-![7 Problems](docs/images/troubleshooting_problems.png)
+![7 Problems](troubleshooting_problems.png)
 
 #### 문제 1: Train = Test (가장 치명적!)
 
@@ -158,7 +158,7 @@ final_features = list(set(top20_corr) & set(top20_gini))
 
 ### 📉 Data Leakage 개념도
 
-![Data Leakage](docs/images/troubleshooting_data_leakage.png)
+![Data Leakage](troubleshooting_data_leakage.png)
 
 **Before**: Test 데이터가 학습에 영향 → 82.58% (거짓)  
 **After**: Train 데이터만 사용 → 69.05% (진실)
@@ -169,7 +169,7 @@ final_features = list(set(top20_corr) & set(top20_gini))
 
 ### 🛠️ 3단계 개선 과정
 
-![Improvement Process](docs/images/troubleshooting_improvement_process.png)
+![Improvement Process](troubleshooting_improvement_process.png)
 
 ---
 
@@ -238,7 +238,7 @@ features = ['player_2022_win_rate', 'player_2022_kda', ...]
 
 ### 📊 Train vs Test Gap 비교
 
-![Train Test Gap](docs/images/troubleshooting_train_test_gap.png)
+![Train Test Gap](troubleshooting_train_test_gap.png)
 
 **Before**: Train = Test (의심스러움!)  
 **After**: Train > Test (정상적인 Gap)
@@ -294,7 +294,7 @@ Confusion Matrix:
 
 ### 🎯 최종 요약 인포그래픽
 
-![Summary](docs/images/troubleshooting_summary.png)
+![Summary](troubleshooting_summary.png)
 
 ---
 
