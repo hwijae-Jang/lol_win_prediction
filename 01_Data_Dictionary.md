@@ -237,7 +237,7 @@ blue_result:
 
 ---
 
-## 💡 면접 Q&A
+## 💡 Q&A
 
 ### Q1: Feature가 왜 60개인가요?
 
@@ -276,8 +276,3 @@ Correlation 상위 20개 ∩ Gini 상위 20개 = 16개
 
 ---
 
-<div align="center">
-
-**데이터 이해가 모델의 시작입니다!**
-
-</div>
