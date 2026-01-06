@@ -164,8 +164,9 @@ final_features = [
 
 ### 설치
 ```bash
-git clone https://github.com/hwijae-Jang/LCK-Match-Prediction.git
-cd LCK-Match-Prediction
+git clone https://github.com/hwijae-Jang/lol_win_prediction
+.git
+cd lol_win_prediction
 pip install -r requirements.txt
 ```
 
@@ -207,7 +208,9 @@ LCK-Match-Prediction/
 ├── 📖 docs/
 │   ├── METHODOLOGY.md
 │   ├── TROUBLESHOOTING.md
-│   └── ...
+|   ├── 01_Data_Dictionary.md
+|   ├── 02_Model_Explanation.md
+│   
 │
 ├── 📊 results/
 │   ├── final_features.csv
@@ -218,7 +221,6 @@ LCK-Match-Prediction/
 ├── 📋 requirements.txt
 ├── 📋 .gitignore
 ├── 📋 CHANGELOG.md
-├── 📋 CONTRIBUTING.md
 └── 📋 LICENSE
 ```
 
@@ -277,7 +279,7 @@ Test (391 games):
 ## 📚 Documentation
 
 - [METHODOLOGY.md](docs/METHODOLOGY.md) - 방법론 상세
-- [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) - 82%→69% 스토리
+- [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) - 82%→69% 트러블슈팅
 - [01_Data_Dictionary.md](docs/01_Data_Dictionary.md) - 데이터 설명
 - [02_Model_Explanation.md](docs/02_Model_Explanation.md) - 모델 설명
 
