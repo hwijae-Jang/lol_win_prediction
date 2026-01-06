@@ -302,7 +302,7 @@ Confusion Matrix:
 
 ### 💡 핵심 교훈 5가지
 
-#### 1. "석**:
+#### 1. **데이터 분석 결과 해석**:
 - ❌ 숫자가 높은가?
 - ✅ 방법론이 올바른가?
 
@@ -314,7 +314,7 @@ Confusion Matrix:
 1. **Feature 레벨**: 게임 결과 데이터 사용
 2. **Evaluation 레벨**: Test 데이터로 Feature 선택
 
-**둘 다 차단**해야 합니다!
+**둘 다 차단**
 
 ---
 
@@ -340,7 +340,7 @@ random_state=42
 | Future → Past | Past → Future |
 | Shuffle | Sort by date |
 
-**이유**: 실전에서는 과거로 미래를 예측!
+**이유**: 실전에서는 과거로 미래를 예측한다.
 
 ---
 
