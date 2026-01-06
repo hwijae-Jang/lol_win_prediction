@@ -169,7 +169,7 @@ cd LCK-Match-Prediction
 pip install -r requirements.txt
 ```
 
-### 데이터 준비
+### 데이터 준비(https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH)
 ```bash
 mkdir data results
 # data/ 폴더에 CSV 파일 배치:
