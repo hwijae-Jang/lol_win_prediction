@@ -12,7 +12,8 @@
 ## 1. 데이터 개요
 
 ### 📥 데이터 출처
-- **제공**: Oracle's Elixir (https://oracleselixir.com)(https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH)
+- **제공**: Oracle's Elixir (https://oracleselixir.com)
+- **데이터 원본 구글 드라이브**: (https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH)
 - **데이터**: 공식 Riot API 기반
 - **범위**: 전 세계 프로 리그 (LCK, LPL, LCS, LEC 등)
 
